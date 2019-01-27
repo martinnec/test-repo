@@ -1,0 +1,1028 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345",
+    "@type" : [ "http://linkedpipes.com/ontology/Pipeline" ],
+    "http://etl.linkedpipes.com/ontology/tag" : [ {
+      "@value" : "RPP"
+    }, {
+      "@value" : "RUIAN"
+    } ],
+    "http://etl.linkedpipes.com/ontology/version" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "2"
+    } ],
+    "http://linkedpipes.com/ontology/profile" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/2"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Adresní místa z RÚIAN k OVM z RPP"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/10",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/98"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-sparqlEndpointSelect/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-820"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-860"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Seznam OVM bez právní formy pro chunkování"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL endpoint select"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/14",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/89"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlSelect/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-700"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-960"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Seznam OVM pro chunkování"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL select"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/2",
+    "@type" : [ "http://linkedpipes.com/ontology/ExecutionProfile" ],
+    "http://linkedpipes.com/ontology/rdfRepositoryPolicy" : [ {
+      "@id" : "http://linkedpipes.com/ontology/repository/SingleRepository"
+    } ],
+    "http://linkedpipes.com/ontology/rdfRepositoryType" : [ {
+      "@id" : "http://linkedpipes.com/ontology/repository/NativeStore"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/21",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/90"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-sparqlEndpointChunked/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-400"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-940"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Adresní místa sídel OVM"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL endpoint chunked"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/22",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/75"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-sparqlEndpointList/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-1100"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-960"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Seznam OVM dle právní formy"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL endpoint list to single graph"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/25",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/graph/84"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-120"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-940"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Chunked merger"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/27",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/94"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-1840"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-1040"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Seznam právních forem"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL endpoint"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/33",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/22"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/14"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/36",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/10"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "FilesInput"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/21"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/38",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/27"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/8"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/45",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/21"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/25"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/52",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/14"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "FilesInput"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/21"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/63",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/8"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "Tasks"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/22"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/8",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/70"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-1580"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-980"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "SPARQL dotazy pro získání OVM dle právní formy"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL construct"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/02e0-bd0b",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/02e0-bd0b/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1620"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-1100"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Chunked merger"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/11e6-aa58",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/11e6-aa58/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "740"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-880"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Chunked merger"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/3563-8eb4",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/3563-8eb4/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlSelect/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "960"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-960"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "OVM v Semilech pro chunkování"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL select"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/37bc-a558",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/37bc-a558/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-sparqlEndpointChunked/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "420"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-860"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Adresní místa OVM v Semilech"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL endpoint chunked"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/5240-95f1",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/5240-95f1/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlSelect/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1840"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-1220"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "OVM v Semilech"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL select"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/cc05-80cb",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/cc05-80cb/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlSelect/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "60"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-900"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Adresní místa OVM pro chunkování"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL select"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/e19e-ba5c",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/e19e-ba5c/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-sparqlEndpointChunked/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1300"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-1040"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "OVM"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL endpoint chunked"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/connection/2373-b53d",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/37bc-a558"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/11e6-aa58"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/connection/4415-a263",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/25"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/3563-8eb4"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/connection/4554-a851",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/27"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/5240-95f1"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/connection/6ca9-9055",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/3563-8eb4"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "FilesInput"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/e19e-ba5c"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/connection/87aa-aaf0",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/11e6-aa58"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/3563-8eb4"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/connection/947a-ba4f",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/25"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/cc05-80cb"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/connection/cf08-a863",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/cc05-80cb"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "FilesInput"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/37bc-a558"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/connection/d246-8c1b",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/e19e-ba5c"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/02e0-bd0b"
+    } ]
+  }, {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/connection/f923-9551",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/02e0-bd0b"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/5240-95f1"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/8/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
+      "@value" : "PREFIX esl: <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#>\nPREFIX l: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/> \n\nCONSTRUCT { \n  ?pf a esl:Task ;\n    esl:query ?q ;\n    esl:endpoint ?ep .\n} WHERE { \n\n  ?pf a l:právní-forma .\n\n  BIND(\n    CONCAT(\n\"\"\"PREFIX l: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\nPREFIX a: <https://slovník.gov.cz/agendový/104/pojem/>\nPREFIX pf: <http://szrcr.cz/odrpp/zdroj/právní-forma/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nCONSTRUCT {\n  ?ovm a l:orgán-veřejné-moci .\n} WHERE {\n  ?ovm a l:orgán-veřejné-moci ;\n    l:má-právní-formu-osoby <\"\"\", STR(?pf), \"\"\"> .\n}\n\"\"\"\n    ) as ?q\n  )\n    \n  BIND(\"http://94.199.43.20/odrpp/sparql\" AS ?ep)\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/70"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/22/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#commitSize" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "0"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#commitSizeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#encodeRdf" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#encodeRdfControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#taskPerGroupLimit" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "0"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#taskPerGroupLimitControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#threads" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#threadsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#timeLimit" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-1"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#timeLimitControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useAuthentication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useAuthenticationControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useTolerantRepository" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useTolerantRepositoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#userNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/75"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/14/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileName" : [ {
+      "@value" : "table.csv"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#query" : [ {
+      "@value" : "PREFIX l: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\n\nSELECT DISTINCT ?ovm\nWHERE {\n  ?ovm a l:orgán-veřejné-moci .\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/89"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/21/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#chunkSize" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1000"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#chunkSizeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#defaultGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#encodeRdf" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#encodeRdfControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#endpoint" : [ {
+      "@value" : "http://94.199.43.20/odrpp/sparql"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#endpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#handleInvalidData" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#handleInvalidDataControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#headerAcceptControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#literalsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#query" : [ {
+      "@value" : "PREFIX l: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\n\nCONSTRUCT {\n  ?ovm l:má-adresu-sídla-orgánu-veřejné-moci ?ovmSidlo .\n} WHERE {\n  ${VALUES}\n  ?ovm a l:orgán-veřejné-moci ;\n    l:má-adresu-sídla-orgánu-veřejné-moci ?ovmSidlo .\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#skipOnError" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#skipOnErrorControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useAuthentication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useAuthenticationControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useTolerantRepository" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useTolerantRepositoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#userNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/90"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/27/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint" : [ {
+      "@value" : "http://94.199.43.20/odrpp/sparql"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query" : [ {
+      "@value" : "PREFIX l: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nCONSTRUCT {\n  ?pf a l:právní-forma ;\n      skos:prefLabel ?pfLabel .\n} WHERE {\n  ?pf a l:právní-forma ;\n      skos:prefLabel ?pfLabel .\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/94"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/10/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointSelect#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointSelect#defaultGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointSelect#endpoint" : [ {
+      "@value" : "http://94.199.43.20/odrpp/sparql"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointSelect#endpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointSelect#fileName" : [ {
+      "@value" : "table.csv"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointSelect#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointSelect#query" : [ {
+      "@value" : "PREFIX l: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\n\nSELECT DISTINCT ?ovm\nWHERE {\n  ?ovm a l:orgán-veřejné-moci .\n  FILTER NOT EXISTS {?ovm l:má-právní-formu-osoby ?pf .}\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointSelect#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointSelect#useAuthentication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/98"
+}, {
+  "@graph" : [ {
+    "@id" : "http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0/new/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-chunkedToGraph#Configuration" ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/02e0-bd0b/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0/new/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-chunkedToGraph#Configuration" ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/11e6-aa58/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/3563-8eb4/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileName" : [ {
+      "@value" : "table.csv"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#query" : [ {
+      "@value" : "PREFIX l: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX : <https://localhost>\n\nSELECT DISTINCT ?ovm\nWHERE {\n  ?ovm l:má-adresu-sídla-orgánu-veřejné-moci ?ovmSidlo .\n  ?ovmSidlo :je-v-semilech true .\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/3563-8eb4/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/37bc-a558/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#chunkSize" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1000"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#chunkSizeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#defaultGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#encodeRdf" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#encodeRdfControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#endpoint" : [ {
+      "@value" : "https://linked.cuzk.cz.opendata.cz/sparql"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#endpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#handleInvalidData" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#handleInvalidDataControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#headerAcceptControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#literalsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#query" : [ {
+      "@value" : "PREFIX : <https://localhost>\nPREFIX ruian: <https://linked.cuzk.cz/ontology/ruian/>\n\nCONSTRUCT {\n ?ovmSidlo :je-v-semilech true .\n} WHERE {\n  ${VALUES}\n  ?ovmSidlo ruian:ulice/ruian:obec <https://linked.cuzk.cz/resource/ruian/obec/576964>\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#skipOnError" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#skipOnErrorControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useAuthentication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useAuthenticationControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useTolerantRepository" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useTolerantRepositoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#userNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/37bc-a558/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/5240-95f1/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileName" : [ {
+      "@value" : "ovm-v-semilech.csv"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#query" : [ {
+      "@value" : "PREFIX l: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nSELECT ?ovm ?ovmNazev ?ovmICO ?pf ?pfLabel\nWHERE {\n  ?ovm a l:orgán-veřejné-moci ;\n    l:má-název-orgánu-veřejné-moci ?ovmNazev ;\n    l:má-adresu-sídla-orgánu-veřejné-moci ?ovmSidlo .\n  OPTIONAL {\n    ?ovm l:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?ovmICO . \n  }\n  OPTIONAL {\n    ?ovm l:má-právní-formu-osoby ?pf .\n    ?pf skos:prefLabel ?pfLabel .\n  }\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/5240-95f1/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/cc05-80cb/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileName" : [ {
+      "@value" : "table.csv"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#query" : [ {
+      "@value" : "PREFIX l: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\n\nSELECT DISTINCT ?ovmSidlo\nWHERE {\n  ?ovm l:má-adresu-sídla-orgánu-veřejné-moci ?ovmSidlo .\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/cc05-80cb/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/e19e-ba5c/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#chunkSize" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1000"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#chunkSizeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#defaultGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#encodeRdf" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#encodeRdfControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#endpoint" : [ {
+      "@value" : "http://94.199.43.20/odrpp/sparql"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#endpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#handleInvalidData" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#handleInvalidDataControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#headerAcceptControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#literalsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#query" : [ {
+      "@value" : "PREFIX l: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\n\nCONSTRUCT {\n  ?ovm a l:orgán-veřejné-moci ;\n    l:má-název-orgánu-veřejné-moci ?ovmNazev ;\n    l:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?ovmICO ;\n    l:má-právní-formu-osoby ?pf ;\n    l:má-adresu-sídla-orgánu-veřejné-moci ?ovmSidlo .\n} WHERE {\n  ${VALUES}\n  ?ovm a l:orgán-veřejné-moci ;\n    l:má-název-orgánu-veřejné-moci ?ovmNazev ;\n    l:má-adresu-sídla-orgánu-veřejné-moci ?ovmSidlo .\n\n  OPTIONAL {?ovm l:má-identifikační-číslo-osoby-orgánu-veřejné-moci ?ovmICO .}\n\n  OPTIONAL {?ovm l:má-právní-formu-osoby ?pf .}\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#skipOnError" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#skipOnErrorControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useAuthentication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useAuthenticationControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useTolerantRepository" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#useTolerantRepositoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunked#userNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/component/e19e-ba5c/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/71",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-chunkedToGraph#Configuration" ]
+  } ],
+  "@id" : "https://etl.skod.opendata.cz/resources/pipelines/1548622437345/graph/84"
+} ]
